@@ -9,7 +9,7 @@ F_y_resultante = 0
 
 while contador <= qnt_F:
     F = float(input("Qual o módulo de F{}? ".format(contador)))
-    teta = float(input("Qual o teta{}? ".format(contador)))
+    teta = float(input("Qual o \u03B8{}? ".format(contador)))
 
     Fx = F * cos(radians(teta))
     Fy = F * sin(radians(teta))
