@@ -18,4 +18,7 @@ while contador <= qnt_F:
     F_y_resultante += Fy
     contador += 1
 
+a_x = F_x_resultante / massa
+a_y = F_y_resultante / massa
+a = (((a_x)**2) + ((a_y)**2))**(1/2)
 print("Fx = {} e Fy = {}.".format(F_x_resultante, F_y_resultante))
